@@ -1,0 +1,24 @@
+{
+  "name": "crosschain-nft",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@chainlink/contracts-ccip": "^1.6.0",
+    "@chainlink/local": "^0.2.5",
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/contracts": "^5.4.0",
+    "dotenv": "^17.2.1",
+    "hardhat": "^2.26.3",
+    "hardhat-deploy": "^1.0.4",
+    "prettier": "^3.6.2",
+    "prettier-plugin-solidity": "^2.1.0",
+    "typescript": "^5.9.2"
+  }
+}
